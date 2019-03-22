@@ -1,13 +1,9 @@
-<header class="main-header">
+<header class="main-header" [ngClass]="{ show: shouldShow, hide: !shouldShow }">
     <div class="branding">
         <span class="branding__name">proto</span>
         <span class="branding__claim">Font</span>
     </div>
-    <button
-        id="burger"
-        onclick="document.querySelector('html').classList.toggle('active')"
-        class="burger-menu"
-    >
+    <button id="burger" (click)="shouldShow = !shouldShow" class="burger-menu">
         <div class="burger-menu-inner">
             <span></span>
             <span></span>

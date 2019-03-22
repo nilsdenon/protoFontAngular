@@ -9,6 +9,7 @@ export class HeaderComponent implements OnInit {
     //define the toogle property
     private toggle: boolean = false;
 
+    public shouldShow: boolean = true;
     //define your method
     clickEvent(event) {
         //if you just want to toggle the class; change toggle variable.
