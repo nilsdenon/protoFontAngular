@@ -1,10 +1,13 @@
 {
-  "folders": [
-    {
-      "path": "."
-    },
-    {
-      "path": "C:\\Users\\Alfa\\Downloads\\angular-tour-of-heroes"
-    }
-  ]
+    "folders": [
+        {
+            "path": "."
+        },
+        {
+            "path": "C:\\Users\\Alfa\\Documents\\protoFontJS"
+        },
+        {
+            "path": "C:\\Users\\Alfa\\Documents\\angular-tour-of-heroes"
+        }
+    ]
 }

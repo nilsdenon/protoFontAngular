@@ -9,9 +9,10 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { LayoutModule } from '@angular/cdk/layout';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { DataTableComponent } from './data-table/data-table.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
-  declarations: [AppComponent, NavigationComponent, DashboardComponent, DataTableComponent],
+  declarations: [AppComponent, NavigationComponent, DashboardComponent, DataTableComponent, HeaderComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
